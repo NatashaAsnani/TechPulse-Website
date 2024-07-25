@@ -1,0 +1,509 @@
+.container-fluid{
+    position: relative;
+}
+.nav-link.active {
+    background-color: rgb(255, 94, 0) !important;
+    color: white !important;
+    border-radius: 25px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .sliders{
+    margin-top: 68px;
+  }
+/* .carousel-inner{
+    padding-top: 150px;
+    padding-bottom: 130px;
+    padding-left: 130px;
+    padding-right: 120px;
+    color: white;
+} */
+.centered {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    /* transform: translate(-50%, -50%); */
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 130px;
+    padding-left: 130px;
+    text-align: center;
+    padding-right: 130px;
+  }
+.read{
+    position: absolute;
+    left: 550px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+    background-color: rgb(184, 184, 184);
+    border-radius: 25px;
+    border: 2px solid rgb(255, 94, 0);
+}
+.read:hover{
+    background-color: rgb(255, 94, 0);
+}
+.about{
+    margin-top: 50px;
+}
+.lorem{
+    margin-top: 50px;
+}
+.circle1{
+    margin-top: 10px;
+}
+.icon{
+    margin-top: 50px;
+}
+.more{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(255, 94, 0);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.boxes{
+    margin-top: 100px;
+}
+.box1{
+    /* position: relative; */
+    border: 1px solid rgb(255, 94, 0);
+    background-color: rgb(255, 94, 0);
+}
+.box2{
+    /* position: relative; */
+    border: 1px solid rgb(184, 184, 184) ;
+}
+.box3{
+    /* position: relative; */
+    border: 1px solid rgb(184, 184, 184) ;
+}
+.box4{
+    /* position: relative; */
+    border: 1px solid rgb(184, 184, 184) ;
+}
+.box2:hover{
+    border: 1px solid rgb(255, 94, 0);
+}
+.box2:hover .cube{
+    color: rgb(255, 94, 0);
+}
+.box3:hover{
+    border: 1px solid rgb(255, 94, 0);
+}
+.box3:hover .sun{
+    color: rgb(255, 94, 0);
+}
+.box4:hover{
+    border: 1px solid rgb(255, 94, 0);
+}
+.box4:hover .command{
+    color: rgb(255, 94, 0);
+}
+.hb1{
+    /* position: absolute;
+    left: 60px;
+    top: 20px; */
+    color: white;
+}
+.binoculars{
+    font-size: 30pt;
+    /* margin-top: 20px; */
+    color: white;
+}
+/* .hb2{
+    position: absolute;
+    left: 60px;
+    top: 20px;
+} */
+/* .hb3{
+    position: absolute;
+    left: 60px;
+    top: 20px;
+} */
+/* .hb4{
+    position: absolute;
+    left: 60px;
+    top: 20px;
+} */
+.cube{
+    font-size: 30pt;
+    /* margin-top: 20px; */
+}
+.sun{
+    font-size: 30pt;
+    /* margin-top: 20px; */
+}
+.command{
+    font-size: 40pt;
+}
+.check{
+    color: rgb(255, 94, 0);
+}
+.secondicon{
+    margin-top: 20px;
+}
+.laptop{
+    width: 600px;
+}
+.call-to-action{
+    padding: 70px;
+}
+.action{
+    background-color: rgb(255, 94, 0);
+    border: none;
+    border-radius: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.firstcol{
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.money{
+    font-size: 30pt;
+    color: rgb(38, 141, 205);
+}
+.calendar{
+    font-size: 30pt;
+    color: rgb(255, 94, 0);
+}
+.bars{
+    font-size: 30pt;
+    color: rgb(8, 149, 8);
+}
+.line{
+    position: absolute;
+    left: 100px;
+    width: 100px;
+    height: 2px;
+    border-top: 2px solid rgb(255, 94, 0);
+}
+.line1{
+    position: absolute;
+    left: 140px;
+    width: 100px;
+    height: 2px;
+    border-top: 2px solid rgb(255, 94, 0);
+}
+.line2{
+    position: absolute;
+    left: 190px;
+    width: 100px;
+    height: 2px;
+    border-top: 2px solid rgb(255, 94, 0);
+}
+.line3{
+    position: absolute;
+    left: 140px;
+    width: 100px;
+    height: 2px;
+    border-top: 2px solid rgb(255, 94, 0);
+}
+.main {
+    max-width: 1000px;
+  }
+#myBtnContainer{
+    padding-left: 450px;
+}
+/* Add padding BETWEEN each column */
+.after,
+.after > .col11 {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.col11 {
+    position: relative;
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.after:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    width: 100%;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(255, 94, 0);
+    border-radius: 20px;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.btn.active {
+    background-color: rgb(255, 94, 0);
+    border-radius: 20px;
+    color: white;
+    outline: none;
+    border: none;
+}
+.prod1, .honey, .flower, .chair, .lamp, .glasses, .camera, .watch, .wheat{
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    height: 300px;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.col11:hover .prod1, .col11:hover .honey, .col11:hover .flower, .col11:hover .chair, .col11:hover .lamp, .col11:hover .glasses, .col11:hover .camera , .col11:hover .watch, .col11:hover .wheat {
+    opacity: 0.2;
+}
+
+.col11:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: rgba(245, 245, 245, 0.21);
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.chair, .lamp , .honey, .flower, .glasses, .camera, .watch, .wheat{
+    height: 300px;
+}
+.checked{
+    color: rgb(255, 94, 0);
+}
+.per1{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.ribbon {
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.ribbon span {
+    position: absolute;
+    display: block;
+    border-radius: 10px;
+    width: 110px;
+    padding: 10px 0;
+    background: rgb(255, 94, 0);
+    color: #fff;
+    text-align: center;
+    transform: rotate(45deg);
+    top: 25px;
+    right: -5px;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+}
+.line4{
+    position: absolute;
+    left: 320px;
+    width: 100px;
+    height: 2px;
+    border-top: 2px solid rgb(255, 94, 0);
+}
+.accordion-button:not(.collapsed) {
+    color: rgb(255, 94, 0);
+  }
+  
+  /* Ensure the caret icon also changes color */
+.accordion-button:not(.collapsed)::after {
+    color: rgb(255, 94, 0);
+    filter: invert(48%) sepia(97%) saturate(1842%) hue-rotate(348deg) brightness(102%) contrast(101%);
+}
+.line5{
+    position: absolute;
+    left: 130px;
+    width: 100px;
+    height: 2px;
+    border-top: 2px solid rgb(255, 94, 0);
+}
+.emp1{
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .card1:hover .middle1 {
+    opacity: 1;
+  }
+  .text1{
+    width: 200px;
+  }
+  .link, .twit, .face, .insta{
+    text-decoration: none;
+    color: rgb(80, 76, 76);
+    background-color: rgb(211, 211, 211);
+    padding-top: 6px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+  }
+  .link:hover, .twit:hover, .face:hover, .insta:hover{
+    background-color: rgb(255, 94, 0);
+    color: white;
+  }
+  .card2:hover .middle1 {
+    opacity: 1;
+  }
+  .card3:hover .middle1 {
+    opacity: 1;
+  }
+  .card4:hover .middle1 {
+    opacity: 1;
+  }
+  .line6{
+    position: absolute;
+    left: 190px;
+    width: 100px;
+    height: 2px;
+    border-top: 2px solid rgb(255, 94, 0);
+}
+.blog1{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.smalltext{
+    padding-left: 55px;
+    margin-top: -10px;
+}
+.line7{
+    position: absolute;
+    left: 150px;
+    width: 100px;
+    height: 2px;
+    border-top: 2px solid rgb(255, 94, 0);
+}
+.blogtext{
+    text-decoration: none;
+    color: black;
+}
+.blogtext:hover{
+    color: rgb(255, 94, 0);
+}
+
+.map{
+    border-radius: 50%;
+    background-color: rgb(254, 225, 208);
+    color: rgb(255, 94, 0);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* font-size: 60pt; */
+}
+.contact:hover .map{
+    color: white;
+    background-color: rgb(255, 94, 0);
+}
+.location{
+    padding-left: 70px;
+}
+.name{
+    width: 260px;
+}
+.mailing{
+    width: 260px;
+}
+.subject{
+    width: 530px;
+}
+.send{
+    width: 200px;
+    border-radius: 25px;
+    background-color: rgb(255, 94, 0);
+    border: none;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    justify-self: center;
+}
+.footer-icon{
+    padding-left: 530px;
+    margin-top: 50px;
+}
+.twitter, .facebook, .instagram, .skype, .linkedin{
+    display: inline;
+    text-decoration: none;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 30px;
+}
+.twitter:hover, .facebook:hover, .skype:hover, .instagram:hover, .linkedin:hover{
+    color: white;
+    background-color: rgb(201, 78, 7);
+}
+.line8{
+    position: absolute;
+    left: 280px;
+    width: 700px;
+    height: 2px;
+    margin-top: 300px;
+    /* border-top: 2px solid rgb(255, 94, 0); */
+}
+.copyright{
+    margin-top: 100px;
+}
