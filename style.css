@@ -1,6 +1,8 @@
 .container-fluid{
     position: relative;
+    overflow-x: hidden;
 }
+
 .nav-link.active {
     background-color: rgb(255, 94, 0) !important;
     color: white !important;
@@ -9,56 +11,90 @@
     padding-right: 20px !important;
     padding-top: 10px;
     padding-bottom: 10px;
-  }
-  .sliders{
-    margin-top: 68px;
-  }
-/* .carousel-inner{
-    padding-top: 150px;
-    padding-bottom: 130px;
-    padding-left: 130px;
-    padding-right: 120px;
+}
+
+.sliders{
+    margin-top: 65px;
+}
+
+.carousel-inner{
     color: white;
-} */
-.centered {
-    position: absolute;
-    top: 30px;
-    left: 0px;
-    /* transform: translate(-50%, -50%); */
-    color: white;
-    padding-top: 150px;
-    padding-bottom: 130px;
-    padding-left: 130px;
-    text-align: center;
-    padding-right: 130px;
-  }
+}
+
 .read{
-    position: absolute;
-    left: 550px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 40px;
     padding-right: 40px;
     margin-top: 40px;
-    background-color: rgb(184, 184, 184);
-    border-radius: 25px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border-radius: 15px;
     border: 2px solid rgb(255, 94, 0);
+    font-size: large;
 }
+
 .read:hover{
     background-color: rgb(255, 94, 0);
+    border-radius: 25px;
 }
+
+.carousel-item:nth-child(1) {
+    background-image: url("C:/Internship/Agency/caro1.1.png");
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url('C:/Internship/Agency/caro2.1.jpg');
+}
+
+.carousel-item:nth-child(3) {
+    background-image: url('C:/Internship/Agency/caro3.1.png');
+}
+
+.carousel-item {
+    height: 550px; 
+    background-size: cover;
+    background-position: center;
+}
+
+.caption{
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.caption h1{
+    font-size: 35pt;
+}
+
+.caption p{
+    font-size: larger;
+}
+
 .about{
     margin-top: 50px;
 }
+
 .lorem{
     margin-top: 50px;
 }
+
+.arrow{
+    font-size: 15px;
+}
+
 .circle1{
     margin-top: 10px;
+}
+
+.circle{
+    font-size: 25px;
+    color: orange;
 }
 .icon{
     margin-top: 50px;
 }
+
 .more{
     border: none;
     border-radius: 10px;
@@ -69,93 +105,89 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .boxes{
     margin-top: 100px;
 }
+
 .box1{
-    /* position: relative; */
     border: 1px solid rgb(255, 94, 0);
     background-color: rgb(255, 94, 0);
 }
+
 .box2{
-    /* position: relative; */
     border: 1px solid rgb(184, 184, 184) ;
 }
+
 .box3{
-    /* position: relative; */
     border: 1px solid rgb(184, 184, 184) ;
 }
+
 .box4{
-    /* position: relative; */
     border: 1px solid rgb(184, 184, 184) ;
 }
+
 .box2:hover{
     border: 1px solid rgb(255, 94, 0);
 }
+
 .box2:hover .cube{
     color: rgb(255, 94, 0);
 }
+
 .box3:hover{
     border: 1px solid rgb(255, 94, 0);
 }
+
 .box3:hover .sun{
     color: rgb(255, 94, 0);
 }
+
 .box4:hover{
     border: 1px solid rgb(255, 94, 0);
 }
+
 .box4:hover .command{
     color: rgb(255, 94, 0);
 }
+
 .hb1{
-    /* position: absolute;
-    left: 60px;
-    top: 20px; */
     color: white;
 }
+
 .binoculars{
     font-size: 30pt;
-    /* margin-top: 20px; */
     color: white;
 }
-/* .hb2{
-    position: absolute;
-    left: 60px;
-    top: 20px;
-} */
-/* .hb3{
-    position: absolute;
-    left: 60px;
-    top: 20px;
-} */
-/* .hb4{
-    position: absolute;
-    left: 60px;
-    top: 20px;
-} */
+
 .cube{
     font-size: 30pt;
-    /* margin-top: 20px; */
 }
+
 .sun{
     font-size: 30pt;
-    /* margin-top: 20px; */
 }
+
 .command{
     font-size: 40pt;
 }
+
 .check{
     color: rgb(255, 94, 0);
 }
+
 .secondicon{
     margin-top: 20px;
 }
+
 .laptop{
     width: 600px;
 }
+
 .call-to-action{
     padding: 70px;
 }
+
 .action{
     background-color: rgb(255, 94, 0);
     border: none;
@@ -165,22 +197,27 @@
     padding-left: 60px;
     padding-right: 60px;
 }
+
 .firstcol{
     border-radius: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
+
 .money{
     font-size: 30pt;
     color: rgb(38, 141, 205);
 }
+
 .calendar{
     font-size: 30pt;
     color: rgb(255, 94, 0);
 }
+
 .bars{
     font-size: 30pt;
     color: rgb(8, 149, 8);
 }
+
 .line{
     position: absolute;
     left: 100px;
@@ -188,6 +225,7 @@
     height: 2px;
     border-top: 2px solid rgb(255, 94, 0);
 }
+
 .line1{
     position: absolute;
     left: 140px;
@@ -195,6 +233,7 @@
     height: 2px;
     border-top: 2px solid rgb(255, 94, 0);
 }
+
 .line2{
     position: absolute;
     left: 190px;
@@ -202,6 +241,7 @@
     height: 2px;
     border-top: 2px solid rgb(255, 94, 0);
 }
+
 .line3{
     position: absolute;
     left: 140px;
@@ -209,35 +249,29 @@
     height: 2px;
     border-top: 2px solid rgb(255, 94, 0);
 }
+
 .main {
-    max-width: 1000px;
-  }
+    max-width: 1200px;
+}
+
 #myBtnContainer{
     padding-left: 450px;
 }
+
 /* Add padding BETWEEN each column */
-.after,
-.after > .col11 {
+.col11 {
     padding: 8px;
 }
 
 /* Create three equal columns that floats next to each other */
 .col11 {
     position: relative;
-    float: left;
-    width: 33.33%;
-    display: none; /* Hide all elements by default */
-}
-
-/* Clear floats after rows */ 
-.after:after {
-    content: "";
-    display: table;
-    clear: both;
+    display: none; 
 }
 
 /* Content */
 .content {
+    /* position: relative; */
     background-color: white;
     width: 100%;
 }
@@ -271,12 +305,12 @@
     outline: none;
     border: none;
 }
+
 .prod1, .honey, .flower, .chair, .lamp, .glasses, .camera, .watch, .wheat{
     opacity: 1;
     display: block;
     transition: .5s ease;
     backface-visibility: hidden;
-    height: 300px;
 }
 
 .middle {
@@ -304,17 +338,22 @@
     font-size: 16px;
     padding: 16px 32px;
 }
-.chair, .lamp , .honey, .flower, .glasses, .camera, .watch, .wheat{
-    height: 300px;
+
+.chair, .lamp , .honey, .flower, .glasses, .camera, .watch, .wheat, .prod1{
+    height: 280px;
+    width: 320px;
 }
+
 .checked{
     color: rgb(255, 94, 0);
 }
+
 .per1{
     border-radius: 50%;
     width: 80px;
     height: 80px;
 }
+
 .ribbon {
     position: absolute;
     top: -10px;
@@ -324,6 +363,7 @@
     overflow: hidden;
     border-radius: 30px;
 }
+
 .ribbon span {
     position: absolute;
     display: block;
@@ -340,6 +380,7 @@
     font-weight: bold;
     box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
 }
+
 .line4{
     position: absolute;
     left: 320px;
@@ -347,15 +388,17 @@
     height: 2px;
     border-top: 2px solid rgb(255, 94, 0);
 }
+
 .accordion-button:not(.collapsed) {
     color: rgb(255, 94, 0);
-  }
-  
+}
+
   /* Ensure the caret icon also changes color */
 .accordion-button:not(.collapsed)::after {
     color: rgb(255, 94, 0);
     filter: invert(48%) sepia(97%) saturate(1842%) hue-rotate(348deg) brightness(102%) contrast(101%);
 }
+
 .line5{
     position: absolute;
     left: 130px;
@@ -363,12 +406,22 @@
     height: 2px;
     border-top: 2px solid rgb(255, 94, 0);
 }
+
+.card1, .card2, .card3{
+    width: 18rem;
+}
+
+.card4{
+   width: 17rem;
+}
+
 .emp1{
     opacity: 1;
     display: block;
     transition: .5s ease;
     backface-visibility: hidden;
 }
+
 .middle1 {
     transition: .5s ease;
     opacity: 0;
@@ -378,51 +431,68 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
 
-  .card1:hover .middle1 {
+.card1:hover .middle1 {
     opacity: 1;
-  }
-  .text1{
+}
+
+.text1{
     width: 200px;
-  }
-  .link, .twit, .face, .insta{
+}
+
+.link, .twit, .face, .insta{
     text-decoration: none;
     color: rgb(80, 76, 76);
     background-color: rgb(211, 211, 211);
     padding-top: 6px;
     padding-bottom: 2px;
     border-radius: 5px;
-  }
-  .link:hover, .twit:hover, .face:hover, .insta:hover{
+}
+
+.link:hover, .twit:hover, .face:hover, .insta:hover{
     background-color: rgb(255, 94, 0);
     color: white;
-  }
-  .card2:hover .middle1 {
+}
+
+.card2:hover .middle1 {
     opacity: 1;
-  }
-  .card3:hover .middle1 {
+}
+
+.card3:hover .middle1 {
     opacity: 1;
-  }
-  .card4:hover .middle1 {
+}
+
+.card4:hover .middle1 {
     opacity: 1;
-  }
-  .line6{
+}
+
+.headers{
+    font-size: x-large;
+}
+.emp4{
+    height: 262px;
+}
+
+.line6{
     position: absolute;
     left: 190px;
     width: 100px;
     height: 2px;
     border-top: 2px solid rgb(255, 94, 0);
 }
+
 .blog1{
     border-radius: 50%;
     width: 50px;
     height: 50px;
 }
+
 .smalltext{
     padding-left: 55px;
     margin-top: -10px;
 }
+
 .line7{
     position: absolute;
     left: 150px;
@@ -430,10 +500,12 @@
     height: 2px;
     border-top: 2px solid rgb(255, 94, 0);
 }
+
 .blogtext{
     text-decoration: none;
     color: black;
 }
+
 .blogtext:hover{
     color: rgb(255, 94, 0);
 }
@@ -448,22 +520,16 @@
     padding-bottom: 10px;
     /* font-size: 60pt; */
 }
+
 .contact:hover .map{
     color: white;
     background-color: rgb(255, 94, 0);
 }
+
 .location{
     padding-left: 70px;
 }
-.name{
-    width: 260px;
-}
-.mailing{
-    width: 260px;
-}
-.subject{
-    width: 530px;
-}
+
 .send{
     width: 200px;
     border-radius: 25px;
@@ -476,10 +542,12 @@
     padding-bottom: 13px;
     justify-self: center;
 }
+
 .footer-icon{
     padding-left: 530px;
     margin-top: 50px;
 }
+
 .twitter, .facebook, .instagram, .skype, .linkedin{
     display: inline;
     text-decoration: none;
@@ -492,18 +560,1443 @@
     padding-left: 10px;
     width: 30px;
 }
+
 .twitter:hover, .facebook:hover, .skype:hover, .instagram:hover, .linkedin:hover{
     color: white;
     background-color: rgb(201, 78, 7);
 }
+
 .line8{
     position: absolute;
     left: 280px;
     width: 700px;
     height: 2px;
     margin-top: 300px;
-    /* border-top: 2px solid rgb(255, 94, 0); */
 }
+
 .copyright{
     margin-top: 100px;
+}
+
+.twt, .fb, .inst, .sky, .inn{
+    font-size: 20px;
+}
+
+.sizing{
+    font-size: 20px;
+}
+
+
+
+@media (min-width:320px) and (max-width:480px){
+    .sliders{
+        margin-top: 60px;
+    }
+    .caption{
+        padding-bottom: 10px;
+    }
+    .laptop{
+        width: 320px;
+    }
+    .action{
+        width: 220px;
+    }
+    #myBtnContainer{
+        padding-left: 0px;
+    }
+    .line4{
+        width: 90px;
+    }
+    .footer-icon{
+        padding-left: 100px;
+    }
+    .line8{
+        left: 50px;
+        width: 300px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .sliders{
+        margin-top: 60px;
+    }
+    .laptop{
+        width: 510px;
+    }
+    #myBtnContainer{
+        padding-left: 130px;
+    }
+    .footer-icon{
+        padding-left: 200px;
+    }
+    .line8{
+        left: 50px;
+        width: 500px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .laptop{
+        width: 380px;
+    }
+    #myBtnContainer{
+        padding-left: 200px;
+    }
+    .footer-icon{
+        padding-left: 300px;
+    }
+    .line8{
+        left: 90px;
+        width: 600px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .laptop{
+        width: 480px;
+    }
+    #myBtnContainer{
+        padding-left: 350px;
+    }
+    .footer-icon{
+        padding-left: 400px;
+    }
+    .line8{
+        left: 140px;
+        width: 700px;
+    }
+}
+@media (min-width: 1400px){
+    .laptop{
+        width: 650px;
+    }
+    .footer-icon{
+        padding-left: 600px;
+    }
+    .line8{
+        left: 350px;
+        width: 700px;
+    }
+}
+@media (min-width: 1500px){
+    .caption h1{
+        font-size: 45pt;
+    }
+    .caption p{
+        font-size: 25pt;
+    }
+    .read{
+        font-size: x-large;
+    }
+    .about h3{
+        font-size: 25pt;
+    }
+    .about p{
+        font-size: larger;
+    }
+    .ptags p{
+        font-size: 18pt;
+    }
+    .more{
+        font-size: x-large;
+    }
+    .arrow{
+        font-size: 25pt;
+    }
+    .before-col h4{
+        font-size: 25pt;
+    }
+    .before-col p{
+        font-size: 18pt;
+    }
+    .call-to-action {
+        font-size: 16pt;
+    }
+    .call-to-action h3{
+        font-size: 28pt;
+    }
+    .service h3, .testimonial h3, .price h3, .FAQ h3, .team-members h3, .footer h3{
+        font-size: 25pt;
+    }
+    .service p, .testimonial p, .price p, .FAQ p, .team-members p, .footer p{
+        font-size: larger;
+    }
+    .line2{
+        left: 220px;
+    }
+    .line3{
+        left: 150px;
+    }
+    .card h5{
+        font-size: xx-large;
+    }
+    .card h6{
+        font-size: larger;
+    }
+    .card p{
+        font-size: x-large;
+    }
+    .firstcol p{
+        font-size: 16pt;
+    }
+    .laptop{
+        width: 710px;
+    }
+    #myBtnContainer{
+        padding-left: 600px;
+    }
+    #myBtnContainer .btn{
+        font-size: x-large;
+    }
+   .card-footer a{
+    font-size: larger;
+   }
+    .card-body li{
+        font-size: x-large;
+    }
+    .acc-button, .acc-body{
+        font-size: x-large;
+    }
+    .card1, .card2, .card3, .card4{
+        width: 21rem;
+    }
+    .emp1{
+        height: 312px;
+    }
+    .emp4{
+        height: 312px;
+    }
+    .middle1{
+        bottom: 110px;
+    }
+    .contacting{
+        font-size: larger;
+    }
+    .line7{
+        left: 170px;
+    }
+   
+    .footer-icon{
+        padding-left: 650px;
+    }
+    .line8{
+        left: 400px;
+        width: 700px;
+    } 
+}
+@media (min-width: 1600px){
+    .caption h1{
+        font-size: 45pt;
+    }
+    .caption p{
+        font-size: 25pt;
+    }
+    .read{
+        font-size: x-large;
+    }
+    .about h3{
+        font-size: 25pt;
+    }
+    .about p{
+        font-size: larger;
+    }
+    .ptags p{
+        font-size: 18pt;
+    }
+    .more{
+        font-size: x-large;
+    }
+    .arrow{
+        font-size: 25pt;
+    }
+    .before-col h4{
+        font-size: 25pt;
+    }
+    .before-col p{
+        font-size: 18pt;
+    }
+    .call-to-action {
+        font-size: 16pt;
+    }
+    .call-to-action h3{
+        font-size: 28pt;
+    }
+    .service h3, .testimonial h3, .price h3, .FAQ h3, .team-members h3, .footer h3{
+        font-size: 25pt;
+    }
+    .service p, .testimonial p, .price p, .FAQ p, .team-members p, .footer p{
+        font-size: larger;
+    }
+    .line2{
+        left: 220px;
+    }
+    .line3{
+        left: 150px;
+    }
+    .card h5{
+        font-size: xx-large;
+    }
+    .card h6{
+        font-size: larger;
+    }
+    .card p{
+        font-size: x-large;
+    }
+    .firstcol p{
+        font-size: 16pt;
+    }
+    .laptop{
+        width: 710px;
+    }
+    #myBtnContainer{
+        padding-left: 600px;
+    }
+    #myBtnContainer .btn{
+        font-size: x-large;
+    }
+   .card-footer a{
+    font-size: larger;
+   }
+    .card-body li{
+        font-size: x-large;
+    }
+    .acc-button, .acc-body{
+        font-size: x-large;
+    }
+    .card1, .card2, .card3, .card4{
+        width: 23rem;
+    }
+    .emp1{
+        height: 343px;
+    }
+    .emp4{
+        height: 343px;
+    }
+    .middle1{
+        bottom: 110px;
+    }
+    .contacting{
+        font-size: larger;
+    }
+    .line7{
+        left: 170px;
+    }
+   
+    .footer-icon{
+        padding-left: 700px;
+    }
+    .line8{
+        left: 400px;
+        width: 700px;
+    } 
+}
+@media (min-width: 1700px){  
+    .footer-icon{
+        padding-left: 750px;
+    }
+}
+@media (min-width: 1800px){
+    .carousel-item{
+        height: 750px;
+    }
+    .card1, .card2, .card3, .card4{
+        width: 26rem;
+    }
+    .emp1{
+        height: 390px;
+    }
+    .emp4{
+        height: 390px;
+    }
+    .footer-icon{
+        padding-left: 800px;
+    }
+    .line8{
+        width: 900px;
+        left: 450px;
+    }
+}    
+@media (min-width: 1900px){
+    .caption{
+        padding-bottom: 180px;
+    }
+    .read{
+        font-size: xx-large;
+    }
+    .laptop{
+        width: 900px;
+    }
+    .carousel-item{
+        height: 800px;
+    }
+    .card1, .card2, .card3, .card4{
+        width: 27rem;
+    }
+    .emp1{
+        height: 405px;
+    }
+    .emp4{
+        height: 405px;
+    }
+    .footer-icon{
+        padding-left: 850px;
+    }
+    .line8{
+        left: 480px;
+    }
+}   
+@media (min-width:2000px) and (max-width: 2200px){
+     .carousel-item{
+        height: 900px;
+     }
+    .laptop{
+        width: 950px;
+    }
+    .caption h1{
+        font-size: 65pt;
+    }
+    .caption p{
+        font-size: 30pt;
+    }
+    .read{
+        font-size: 30pt;
+    }
+    .about h3{
+        font-size: 35pt;
+    }
+    .about p{
+        font-size: xx-large;
+    }
+    .ptags p{
+        font-size: 25pt;
+    }
+    .more{
+        font-size: 30pt;
+    }
+    .box1 h3{
+        font-size: 30pt;
+    }
+    .box2 h3{
+        font-size: 30pt;
+    }
+    .box3 h3{
+        font-size: 30pt;
+    }
+    .box4 h3{
+        font-size: 30pt;
+    }
+    .arrow{
+        font-size: 25pt;
+    }
+    .before-col h4{
+        font-size: 35pt;
+    }
+    .before-col p{
+        font-size: 25pt;
+    }
+    .call-to-action {
+        font-size: 23pt;
+    }
+    .call-to-action h3{
+        font-size: 38pt;
+    }
+    .service h3, .testimonial h3, .price h3, .faq h3, .team-members h3, .footer h3, .port h3, .blog h3{
+        font-size: 35pt;
+    }
+    .service p, .testimonial p, .price p, .faq p, .team-members p, .footer p, .port p, .blog p{
+        font-size: xx-large;
+    }
+    .card h5{
+        font-size: 30pt;
+    }
+    .card h6{
+        font-size: xx-large;
+    }
+    .card p{
+        font-size: 25pt;
+    }
+    .firstcol h3{
+        font-size: 35pt;
+    }
+    .firstcol p{
+        font-size: 25pt;
+    }
+    #myBtnContainer .btn{
+        font-size: x-large;
+    }
+    #myBtnContainer{
+        margin-left: 130px;
+    }
+   .card-footer a{
+    font-size: xx-large;
+   }
+    .card-body li{
+        font-size: xx-large;
+    }
+    .headers{
+        font-size: 30pt;
+    }
+    .ribbon span{
+        font-size: larger;
+    }
+    .acc-button, .acc-body{
+        font-size: 28pt;
+    }
+    .card1, .card2, .card3, .card4{
+        width: 29rem;
+    }
+    .emp1{
+        height: 435px;
+    }
+    .emp4{
+        height: 435px;
+    }
+    .smalltext{
+        font-size: 20pt;
+    }
+    .contacting{
+        font-size: xx-large;
+    }
+    .contact h5{
+        font-size: 30pt;
+    }
+    .send{
+        width: 300px;
+    }
+    .footer-icon{
+        padding-left: 800px;
+        font-size: 35pt;
+    }
+    .line8{
+        left: 450px;
+        width: 1100px;
+        margin-top: 380px;
+    } 
+    .after{
+        margin-left: 400px;
+    }
+    .line{
+        left: 180px;
+        margin-top: 200px;
+    }
+    .line1{
+        left: 200px;
+    }
+    .line2{
+        left: 250px;
+    }
+    .line3{
+        left: 200px;
+    }
+    .line4{
+        left: 550px;
+    }
+    .line5{
+        left: 170px;
+    }
+    .line6{
+        left: 300px;
+    }
+    .line7{
+        left: 250px;
+    }
+    .box1 .binoculars{
+        font-size: 40pt;
+    }
+    .box2 .cube{
+        font-size: 40pt;
+    }
+    .box3 .sun{
+        font-size: 40pt;
+    }
+    .box4 .command{
+        font-size: 50pt;
+    }
+    .check{
+        font-size: 30pt;
+    }
+    .money, .calendar, .bars{
+        font-size: 50pt;
+    }
+    .review span{
+        font-size: 25pt;
+    }
+    .middle1{
+        bottom: 150px;
+    }
+    .footer-icon a i{
+        font-size: 35pt;
+    }
+}
+@media (min-width: 2300px) and (max-width: 2400px){
+    .carousel-item{
+        height: 950px;
+    }
+    .laptop{
+        width: 1100px;
+    }
+    .caption h1{
+        font-size: 65pt;
+    }
+    .caption p{
+        font-size: 30pt;
+    }
+    .read{
+        font-size: 30pt;
+    }
+    .about h3{
+        font-size: 35pt;
+    }
+    .about p{
+        font-size: xx-large;
+    }
+    .ptags p{
+        font-size: 25pt;
+    }
+    .more{
+        font-size: 30pt;
+    }
+    .box1 h3{
+        font-size: 30pt;
+    }
+    .box2 h3{
+        font-size: 30pt;
+    }
+    .box3 h3{
+        font-size: 30pt;
+    }
+    .box4 h3{
+        font-size: 30pt;
+    }
+    .arrow{
+        font-size: 25pt;
+    }
+    .before-col h4{
+        font-size: 35pt;
+    }
+    .before-col p{
+        font-size: 25pt;
+    }
+    .call-to-action {
+        font-size: 23pt;
+    }
+    .call-to-action h3{
+        font-size: 38pt;
+    }
+    .service h3, .testimonial h3, .price h3, .faq h3, .team-members h3, .footer h3, .port h3, .blog h3{
+        font-size: 35pt;
+    }
+    .service p, .testimonial p, .price p, .faq p, .team-members p, .footer p, .port p, .blog p{
+        font-size: xx-large;
+    }
+    .card h5{
+        font-size: 30pt;
+    }
+    .card h6{
+        font-size: xx-large;
+    }
+    .card p{
+        font-size: 25pt;
+    }
+    .firstcol h3{
+        font-size: 35pt;
+    }
+    .firstcol p{
+        font-size: 25pt;
+    }
+    #myBtnContainer .btn{
+        font-size: x-large;
+    }
+    .card-footer a{
+        font-size: xx-large;
+       }
+    .card-body li{
+        font-size: xx-large;
+    }
+    .headers{
+        font-size: 30pt;
+    }
+    .ribbon span{
+        font-size: larger;
+    }
+    .acc-button, .acc-body{
+        font-size: 28pt;
+    }
+    .smalltext{
+        font-size: 20pt;
+    }
+    .contacting{
+        font-size: xx-large;
+    }
+    .contact h5{
+        font-size: 30pt;
+    }
+    .box1 .binoculars{
+        font-size: 40pt;
+    }
+    .box2 .cube{
+        font-size: 40pt;
+    }
+    .box3 .sun{
+        font-size: 40pt;
+    }
+    .box4 .command{
+        font-size: 50pt;
+    }
+    .check{
+        font-size: 30pt;
+    }
+    .money, .calendar, .bars{
+        font-size: 50pt;
+    }
+    .review span{
+        font-size: 25pt;
+    }
+    .footer-icon a i{
+        font-size: 35pt;
+    }
+    .main{
+        max-width: 2200px;
+    }
+    #myBtnContainer .btn{
+        font-size: 25pt;
+    }
+    #myBtnContainer{
+        padding-left: 900px;
+    }
+    .after{
+        padding-left: 100px;
+    }
+    .chair, .lamp , .honey, .flower, .glasses, .camera, .watch, .wheat, .prod1{
+        width: 600px;
+        height: 500px;
+    }
+    .card1, .card2, .card3, .card4{
+        width: 34rem;
+    }
+    .emp1{
+        height: 518px;
+    }
+    .emp4{
+        height: 518px;
+    }
+    .middle1{
+        bottom: 130px;
+    }
+    .sizing{
+        font-size: xx-large;
+    }
+    .middle1 a{
+        font-size: xx-large;
+    }
+    .send{
+        width: 300px;
+    }
+    .footer-icon{
+        padding-left: 980px;
+        font-size: 35pt;
+    }
+    .line{
+        left: 180px;
+    }
+    .line1{
+        left: 200px;
+    }
+    .line2{
+        left: 250px;
+    }
+    .line3{
+        left: 200px;
+    }
+    .line4{
+        left: 550px;
+    }
+    .line5{
+        left: 170px;
+    }
+    .line6{
+        left: 300px;
+    }
+    .line7{
+        left: 250px;
+    }
+    .line8{
+        left: 540px;
+        width: 1200px;
+        margin-top: 380px;
+    } 
+    .nav-link.active{
+        font-size: 20pt;
+    }
+    .nav-link{
+        font-size: 20pt;
+        margin-left: 50px !important;
+    }
+    .nav-cont .selecao{
+        font-size: 35pt !important;
+    }
+    input{
+        height: 80px;
+    }
+}
+@media (min-width: 2500px) and (max-width: 2600px){
+    .carousel-item{
+        height: 1100px;
+    }
+    .laptop{
+        width: 1250px;
+    }
+    .caption h1{
+        font-size: 65pt;
+    }
+    .caption p{
+        font-size: 30pt;
+    }
+    .read{
+        font-size: 30pt;
+    }
+    .about h3{
+        font-size: 35pt;
+    }
+    .about p{
+        font-size: xx-large;
+    }
+    .ptags p{
+        font-size: 25pt;
+    }
+    .more{
+        font-size: 30pt;
+    }
+    .box1 h3{
+        font-size: 30pt;
+    }
+    .box2 h3{
+        font-size: 30pt;
+    }
+    .box3 h3{
+        font-size: 30pt;
+    }
+    .box4 h3{
+        font-size: 30pt;
+    }
+    .arrow{
+        font-size: 25pt;
+    }
+    .before-col h4{
+        font-size: 35pt;
+    }
+    .before-col p{
+        font-size: 25pt;
+    }
+    .call-to-action {
+        font-size: 23pt;
+    }
+    .call-to-action h3{
+        font-size: 38pt;
+    }
+    .service h3, .testimonial h3, .price h3, .faq h3, .team-members h3, .footer h3, .port h3, .blog h3{
+        font-size: 35pt;
+    }
+    .service p, .testimonial p, .price p, .faq p, .team-members p, .footer p, .port p, .blog p{
+        font-size: xx-large;
+    }
+    .card h5{
+        font-size: 30pt;
+    }
+    .card h6{
+        font-size: xx-large;
+    }
+    .card p{
+        font-size: 25pt;
+    }
+    .firstcol h3{
+        font-size: 35pt;
+    }
+    .firstcol p{
+        font-size: 25pt;
+    }
+    #myBtnContainer .btn{
+        font-size: x-large;
+    }
+    .card-footer a{
+        font-size: xx-large;
+       }
+    .card-body li{
+        font-size: xx-large;
+    }
+    .headers{
+        font-size: 30pt;
+    }
+    .ribbon span{
+        font-size: larger;
+    }
+    .acc-button, .acc-body{
+        font-size: 28pt;
+    }
+    .smalltext{
+        font-size: 20pt;
+    }
+    .contacting{
+        font-size: xx-large;
+    }
+    .contact h5{
+        font-size: 30pt;
+    }
+    .box1 .binoculars{
+        font-size: 40pt;
+    }
+    .box2 .cube{
+        font-size: 40pt;
+    }
+    .box3 .sun{
+        font-size: 40pt;
+    }
+    .box4 .command{
+        font-size: 50pt;
+    }
+    .check{
+        font-size: 30pt;
+    }
+    .money, .calendar, .bars{
+        font-size: 50pt;
+    }
+    .review span{
+        font-size: 25pt;
+    }
+    .footer-icon a i{
+        font-size: 35pt;
+    }
+    .main{
+        max-width: 2200px;
+    }
+    #myBtnContainer .btn{
+        font-size: 25pt;
+    }
+    #myBtnContainer{
+        padding-left: 900px;
+    }
+    .after{
+        padding-left: 200px;
+    }
+    .chair, .lamp , .honey, .flower, .glasses, .camera, .watch, .wheat, .prod1{
+        width: 600px;
+        height: 500px;
+    }
+    .card1, .card2, .card3, .card4{
+        width: 38rem;
+    }
+    .emp1{
+        height: 580px;
+    }
+    .emp4{
+        height: 580px;
+    }
+    .middle1{
+        bottom: 150px;
+    }
+    .text1{
+        width: 400px;
+    }
+    .sizing{
+        font-size: 40px;
+    }
+    .middle1 a{
+        font-size: 40px;
+    }
+    .send{
+        width: 300px;
+    }
+    .footer-icon{
+        padding-left: 1130px;
+        font-size: 35pt;
+    }
+    .line{
+        left: 180px;
+    }
+    .line1{
+        left: 200px;
+    }
+    .line2{
+        left: 250px;
+    }
+    .line3{
+        left: 200px;
+    }
+    .line4{
+        left: 550px;
+    }
+    .line5{
+        left: 170px;
+    }
+    .line6{
+        left: 300px;
+    }
+    .line7{
+        left: 250px;
+    }
+    .line8{
+        left: 630px;
+        width: 1300px;
+        margin-top: 380px;
+    } 
+    .nav-link.active{
+        font-size: 20pt;
+    }
+    .nav-link{
+        font-size: 20pt;
+        margin-left: 50px !important;
+    }
+    .nav-cont .selecao{
+        font-size: 35pt !important;
+    }
+    input{
+        height: 80px;
+    }
+}
+@media (min-width: 2700px) and (max-width: 2800px){
+    .carousel-item{
+        height: 1200px;
+    }
+    .laptop{
+        width: 1300px;
+    }
+    .caption{
+        padding-bottom: 300px;
+    }
+    .caption h1{
+        font-size: 70pt;
+    }
+    .caption p{
+        font-size: 35pt;
+    }
+    .read{
+        font-size: 35pt;
+    }
+    .about h3{
+        font-size: 40pt;
+    }
+    .about p{
+        font-size: 30pt;
+    }
+    .ptags p{
+        font-size: 30pt;
+    }
+    .more{
+        font-size: 35pt;
+    }
+    .box1 h3{
+        font-size: 40pt;
+    }
+    .box2 h3{
+        font-size: 40pt;
+    }
+    .box3 h3{
+        font-size: 40pt;
+    }
+    .box4 h3{
+        font-size: 40pt;
+    }
+    .arrow{
+        font-size: 25pt;
+    }
+    .before-col h4{
+        font-size: 40pt;
+    }
+    .before-col p{
+        font-size: 30pt;
+    }
+    .call-to-action {
+        font-size: 30pt;
+    }
+    .call-to-action h3{
+        font-size: 43pt;
+    }
+    .service h3, .testimonial h3, .price h3, .faq h3, .team-members h3, .footer h3, .port h3, .blog h3{
+        font-size: 40pt;
+    }
+    .service p, .testimonial p, .price p, .faq p, .team-members p, .footer p, .port p, .blog p{
+        font-size: 30pt;
+    }
+    .card h5{
+        font-size: 30pt;
+    }
+    .card h6{
+        font-size: xx-large;
+    }
+    .card p{
+        font-size: 28pt;
+    }
+    .firstcol h3{
+        font-size: 40pt;
+    }
+    .firstcol p{
+        font-size: 30pt;
+    }
+    #myBtnContainer .btn{
+        font-size: 30pt;
+    }
+    .card-footer a{
+        font-size: 30pt;
+       }
+    .card-body li{
+        font-size: 30pt;
+    }
+    .headers{
+        font-size: 35pt;
+    }
+    .ribbon span{
+        font-size: larger;
+    }
+    .acc-button, .acc-body{
+        font-size: 30pt;
+    }
+    .smalltext{
+        font-size: 20pt;
+    }
+    .contacting{
+        font-size: xx-large;
+    }
+    .contacting h3{
+        font-size: 40pt;
+    }
+    .contacting p{
+        font-size: 30pt;
+    }
+    .contact h5{
+        font-size: 35pt;
+    }
+    .box1 .binoculars{
+        font-size: 40pt;
+    }
+    .box2 .cube{
+        font-size: 40pt;
+    }
+    .box3 .sun{
+        font-size: 40pt;
+    }
+    .box4 .command{
+        font-size: 50pt;
+    }
+    .check{
+        font-size: 30pt;
+    }
+    .money, .calendar, .bars{
+        font-size: 50pt;
+    }
+    .review span{
+        font-size: 25pt;
+    }
+    .footer-icon a i{
+        font-size: 35pt;
+    }
+    .main{
+        max-width: 2200px;
+    }
+    #myBtnContainer .btn{
+        font-size: 25pt;
+    }
+    #myBtnContainer{
+        padding-left: 900px;
+    }
+    .after{
+        padding-left: 300px;
+    }
+    .chair, .lamp , .honey, .flower, .glasses, .camera, .watch, .wheat, .prod1{
+        width: 600px;
+        height: 500px;
+    }
+    .card1, .card2, .card3, .card4{
+        width: 40rem;
+    }
+    .emp1{
+        height: 613px;
+    }
+    .emp4{
+        height: 613px;
+    }
+    .middle1{
+        bottom: 150px;
+    }
+    .text1{
+        width: 400px;
+    }
+    .sizing{
+        font-size: 40px;
+    }
+    .middle1 a{
+        font-size: 40px;
+    }
+    .send{
+        width: 300px;
+    }
+    .footer-icon{
+        padding-left: 1170px;
+        font-size: 35pt;
+    }
+    .line{
+        left: 180px;
+    }
+    .line1{
+        left: 200px;
+    }
+    .line2{
+        left: 250px;
+    }
+    .line3{
+        left: 200px;
+    }
+    .line4{
+        left: 550px;
+    }
+    .line5{
+        left: 170px;
+    }
+    .line6{
+        left: 300px;
+    }
+    .line7{
+        left: 250px;
+    }
+    .line8{
+        left: 630px;
+        width: 1300px;
+        margin-top: 380px;
+    } 
+    .nav-link.active{
+        font-size: 20pt;
+    }
+    .nav-link{
+        font-size: 20pt;
+        margin-left: 50px !important;
+    }
+    .nav-cont .selecao{
+        font-size: 35pt !important;
+    }
+    input{
+        height: 80px;
+    }
+}
+@media (min-width: 2900px) and (max-width: 3000px){
+    .carousel-item{
+        height: 1300px;
+    }
+    .laptop{
+        width: 1450px;
+    }
+    .caption{
+        padding-bottom: 300px;
+    }
+    .caption h1{
+        font-size: 70pt;
+    }
+    .caption p{
+        font-size: 35pt;
+    }
+    .read{
+        font-size: 35pt;
+    }
+    .about h3{
+        font-size: 40pt;
+    }
+    .about p{
+        font-size: 30pt;
+    }
+    .ptags p{
+        font-size: 30pt;
+    }
+    .more{
+        font-size: 35pt;
+    }
+    .box1 h3{
+        font-size: 40pt;
+    }
+    .box2 h3{
+        font-size: 40pt;
+    }
+    .box3 h3{
+        font-size: 40pt;
+    }
+    .box4 h3{
+        font-size: 40pt;
+    }
+    
+    .arrow{
+        font-size: 25pt;
+    }
+    .before-col h4{
+        font-size: 40pt;
+    }
+    .before-col p{
+        font-size: 30pt;
+    }
+    .call-to-action {
+        font-size: 30pt;
+    }
+    .call-to-action h3{
+        font-size: 43pt;
+    }
+    .service h3, .testimonial h3, .price h3, .faq h3, .team-members h3, .footer h3, .port h3, .blog h3{
+        font-size: 40pt;
+    }
+    .service p, .testimonial p, .price p, .faq p, .team-members p, .footer p, .port p, .blog p{
+        font-size: 30pt;
+    }
+    .card h5{
+        font-size: 30pt;
+    }
+    .card h6{
+        font-size: xx-large;
+    }
+    .card p{
+        font-size: 28pt;
+    }
+    .firstcol h3{
+        font-size: 40pt;
+    }
+    .firstcol p{
+        font-size: 30pt;
+    }
+    #myBtnContainer .btn{
+        font-size: 30pt;
+    }
+    .card-footer a{
+        font-size: 30pt;
+       }
+    .card-body li{
+        font-size: 30pt;
+    }
+    .headers{
+        font-size: 35pt;
+    }
+    .ribbon span{
+        font-size: larger;
+    }
+    .acc-button, .acc-body{
+        font-size: 30pt;
+    }
+    .smalltext{
+        font-size: 20pt;
+    }
+    .contacting{
+        font-size: xx-large;
+    }
+    .contacting h3{
+        font-size: 40pt;
+    }
+    .contacting p{
+        font-size: 30pt;
+    }
+    .contact h5{
+        font-size: 35pt;
+    }
+    .box1 .binoculars{
+        font-size: 50pt ;
+    }
+    .box2 .cube{
+        font-size: 50pt ;
+    }
+    .box3 .sun{
+        font-size: 50pt ;
+    }
+    .box4 .command{
+        font-size: 60pt ;
+    }
+    .check{
+        font-size: 50px ;
+    }
+    .money, .calendar, .bars{
+        font-size: 60pt ;
+    }
+    .circle1 .circle{
+        font-size: 50px;
+    }
+    .review span{
+        font-size: 25pt;
+    }
+    .footer-icon a i{
+        font-size: 35pt;
+    }
+    .main{
+        max-width: 2800px;
+    }
+    #myBtnContainer .btn{
+        font-size: 35pt;
+    }
+    #myBtnContainer{
+        padding-left: 1100px;
+    }
+    .after{
+        padding-left: 250px;
+    }
+    .chair, .lamp , .honey, .flower, .glasses, .camera, .watch, .wheat, .prod1{
+        width: 800px;
+        height: 700px;
+    }
+    .card1, .card2, .card3, .card4{
+        width: 45rem;
+    }
+    .emp1{
+        height: 690px;
+    }
+    .emp4{
+        height: 690px;
+    }
+    .middle1{
+        bottom: 150px;
+    }
+    .text1{
+        width: 400px;
+    }
+    .sizing{
+        font-size: 40px;
+    }
+    .middle1 a{
+        font-size: 40px;
+    }
+    .send{
+        width: 300px;
+    }
+    .footer-icon{
+        padding-left: 1320px;
+        font-size: 35pt;
+    }
+    .line{
+        left: 190px;
+    }
+    .line1{
+        left: 220px;
+    }
+    .line2{
+        left: 290px;
+    }
+    .line3{
+        left: 250px;
+    }
+    .line4{
+        left: 570px;
+    }
+    .line5{
+        left: 190px;
+    }
+    .line6{
+        left: 350px;
+    }
+    .line7{
+        left: 270px;
+    }
+    .line8{
+        left: 680px;
+        width: 1600px;
+        margin-top: 380px;
+    } 
+    .nav-link.active{
+        font-size: 20pt;
+    }
+    .nav-link{
+        font-size: 20pt;
+        margin-left: 50px !important;
+    }
+    .nav-cont .selecao{
+        font-size: 35pt !important;
+    }
+    input{
+        height: 80px;
+    }
 }
