@@ -626,8 +626,12 @@
         padding-left: 0px;
     }
     .port{
-        padding-left: 30px;
+        padding-left: 10px;
         margin-left: 0px !important;
+    }
+    .chair, .lamp , .honey, .flower, .glasses, .camera, .watch, .wheat, .prod1{
+        width: 380px;
+        height: 350px;
     }
 
 }
