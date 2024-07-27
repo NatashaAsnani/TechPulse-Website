@@ -608,7 +608,9 @@
         width: 220px;
     }
     #myBtnContainer{
-        padding-left: 0px;
+        padding-left: 0px !important;
+        /* max-width: 600px; */
+        /* border:  1px solid; */
     }
     .line4{
         width: 90px;
@@ -623,6 +625,11 @@
     .after{
         padding-left: 0px;
     }
+    .port{
+        padding-left: 30px;
+        margin-left: 0px !important;
+    }
+
 }
 @media (min-width: 576px) and (max-width: 767.98px){
     .sliders{
