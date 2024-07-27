@@ -595,6 +595,12 @@
     .caption{
         padding-bottom: 10px;
     }
+    .caption h1{
+        font-size: xx-large;
+    }
+    .caption p{
+        font-size: large;
+    }
     .laptop{
         width: 320px;
     }
@@ -613,6 +619,9 @@
     .line8{
         left: 50px;
         width: 300px;
+    }
+    .after{
+        padding-left: 0px;
     }
 }
 @media (min-width: 576px) and (max-width: 767.98px){
