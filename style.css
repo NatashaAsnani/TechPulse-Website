@@ -12,7 +12,15 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
+.nav-link:hover{
+    background-color: rgb(255, 94, 0) !important;
+    color: white !important;
+    border-radius: 25px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .sliders{
     margin-top: 65px;
 }
@@ -40,15 +48,15 @@
 }
 
 .carousel-item:nth-child(1) {
-    background-image: url("C:/Internship/Agency/caro1.1.png");
+    background-image: url("C:/Internship/Agency_Completed/caro1.1.png");
 }
 
 .carousel-item:nth-child(2) {
-    background-image: url('C:/Internship/Agency/caro2.1.jpg');
+    background-image: url('C:/Internship/Agency_Completed/caro2.1.jpg');
 }
 
 .carousel-item:nth-child(3) {
-    background-image: url('C:/Internship/Agency/caro3.1.png');
+    background-image: url('C:/Internship/Agency_Completed/caro3.1.png');
 }
 
 .carousel-item {
