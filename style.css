@@ -407,6 +407,10 @@
     filter: invert(48%) sepia(97%) saturate(1842%) hue-rotate(348deg) brightness(102%) contrast(101%);
 }
 
+.accordion-item:focus{
+    box-shadow: none;
+    outline: none;
+}
 .line5{
     position: absolute;
     left: 130px;
