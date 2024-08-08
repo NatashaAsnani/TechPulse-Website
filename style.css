@@ -48,15 +48,15 @@
 }
 
 .carousel-item:nth-child(1) {
-    background-image: url("C:/Internship/Agency_Completed/caro1.1.png");
+    background-image: url("C:/Internship/TechPulse-Website/caro1.1.png");
 }
 
 .carousel-item:nth-child(2) {
-    background-image: url('C:/Internship/Agency_Completed/caro2.1.jpg');
+    background-image: url('C:/Internship/TechPulse-Website/caro2.1.jpg');
 }
 
 .carousel-item:nth-child(3) {
-    background-image: url('C:/Internship/Agency_Completed/caro3.1.png');
+    background-image: url('C:/Internship/TechPulse-Website/caro3.1.png');
 }
 
 .carousel-item {
