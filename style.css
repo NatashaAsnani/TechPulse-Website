@@ -52,11 +52,11 @@
 }
 
 .carousel-item:nth-child(2) {
-    background-image: url('C:/Internship/TechPulse-Website/caro2.1.jpg');
+    background-image: url('caro2.1.jpg');
 }
 
 .carousel-item:nth-child(3) {
-    background-image: url('C:/Internship/TechPulse-Website/caro3.1.png');
+    background-image: url('caro3.1.png');
 }
 
 .carousel-item {
